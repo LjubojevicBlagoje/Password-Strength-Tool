@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>password-strength-tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Password Strength Tool</h1>
+    <p>
+        This is a static HTML site designed for password strength analysis.
+        It runs entirely in your web browser and has no backend or database, hence
+        anything you enter will never be stored or transmitted anywhere.
+        Results are for informational and educational purposes only and we are not liable
+        for any damages or losses related to the use or misuse of the information provided.
+    </p>
+    <br><hr>
+
+    <h2>Enter your password in the field below:</h2>
+
+    <div class="password">
+        <form id="parse">
+            <input type="password" name="password" id = "password">
+            <br>
+            <button type="submit"><strong>Analyse</strong></button>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>Results:</h2>
+    <div class="output">
+        <pre id="output-message">Analysis will appear here!</pre>
+    </div>
+
+    <br><hr>
+    <footer>
+        <p>&copy; 2025 Blagoje Ljubojevic - Password-Strength-Tool</p>
+        <p>Check out my project on 
+            <a href="https://github.com/LjubojevicBlagoje/Password-Strength-Tool.git" target="_blank">GitHub</a>.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
